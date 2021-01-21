@@ -1,0 +1,360 @@
+will be displayed as a hyperlink.
+ 
+</p>
+ 
+</body>
+ 
+</htm
+l>
+ 
+Line Breaks
+ 
+ 
+The <br>tag is used when you want to start a new line, but don't want to start 
+a new paragraph. The 
+ 
+<br>tag forces a line break wherever you place it
+. It is similar to single spacing 
+in a document. 
+ 
+This Code   
+ 
+<p>This <br> is a Para<br> 
+graph with 
+ 
+line breaks</p>
+ 
+ 
+Horizontal Rule
+ 
+The <hr>element is used for horizontal rules that act as dividers between 
+sections
+, like this: The horizontal rule does not have a closing tag. It takes 
+attributes such as align and width. 
+Normally,an <HR> tag is used to display a 
+grey coloured line.you can change color of the line by adding color attribute 
+and specifying the name of th
+e color you want.
+ 
+EG:
+-
+ 
+<Hr color=red>
+ 
+ 
+ 
+Fonts
+ 
+The <font> tag in HTML is deprecated. It is supposed to be removed in a 
+ 
+future version of HTML.
+ 
+The HTML <font> Tag
+ 
+With HTML code like this, you can specify both the size and the type of the 
+ 
+browser output :
+ 
+<p>
+ 
+<font size="2" face="Verdana">
+ 
+This is a paragraph.
+ 
+</font>
+ 
+</p>
+ 
+<p>
+ 
+<font size="3" face="Times">
+ 
+This is another paragraph.
+ 
+</font>
+ 
+</p>
+ 
+ 
+ 
+Font Attributes
+ 
+At
+tribute Example Purpose
+ 
+Attribute
+ 
+Example
+ 
+Purpose
+ 
+size="number"
+ 
+size="2"
+ 
+Defines the font size
+ 
+size="+number"
+ 
+size="+1"
+ 
+ 
+Increases the font size
+ 
+size="
+-
+number"
+ 
+size="
+-
+1"
+ 
+Decreases the font size
+ 
+face="face
+-
+name"
+ 
+face="Times"
+ 
+Defines the 
+font
+-
+name
+ 
+color="color
+-
+value"
+ 
+color="#eeff00"
+ 
+Defines the font color
+ 
+color="color
+-
+name"
+ 
+" color="red"
+ 
+Defines the font color
+ 
+ 
+Comments in HTML
+ 
+The comment tag is used to insert a comment in the HTML source code. A 
+comment can be placed anywhere in the document and the browser will 
+ignore everything inside the brackets. You can use 
+comments to write notes to 
+yourself, or write a helpful message to
+ 
+someone looking at your source 
+ 
+code. 
+ 
+This Code   Would Display 
+ 
+<p> This html comment would <!
+--
+ 
+This 
+ 
+is a comment 
+--
+>be displayed like 
+ 
+this.</p>
+ 
+Marquee Text
+ 
+An HTML marquee is a scrolling piece of text displayed either horizontally 
+across or vertica
+lly down your webpage depending on the settings
+. This is 
+created by using HTML <marquees> tag.
+ 
+Syntax:
+-
+ 
+ 
+<marquee attribute_name="attribute_value"....more attributes>
+ 
+ 
+One or more lines or text message or image
+ 
+ 
+</marquee>
+ 
+E.G
+ 
+ 
+ 
+ 
+<html>
+ 
+<head>
+ 
+<title>HTML marquee Tag</title>
+ 
+</head>
+ 
+<body>
+ 
+<marquee>This is basic example of marquee</marquee>
+ 
+</body>
+ 
+</html>
+ 
+ 
+Bgcolor
+ 
+The bgcolor attribute specifies a background
+-
+color for an HTML page. The 
+value of this attribute can be 
+ 
+a hexadecimal number, an RGB value, or a color name: 
+ 
+<body bgcolor="#000000"> 
+ 
+<body bgcolor="rgb(0,0,0)"> 
+ 
+<body bgcolor="black"> 
+ 
+The lines above al
+l set the background
+-
+color to black. 
+ 
+E.G:
+-
+ 
+<html>
+ 
+<head>
+ 
+<title>My Own Home Page </title>
+ 
+</head>
+ 
+<body>
+ 
+<body bgcolor= "blue">
+ 
+<font color="Red">
+ 
+<H1> I am Your
+-
+Name and this is my web Page!</H1>
+ 
+</font>
+ 
+</body>
+ 
+ 
+ 
+Background
+ 
+The background 
+attribute can also specify a background
+-
+image for an HTML 
+page. The value of this attribute is the URL of the image you want to use.
+ 
+If the 
+image is smaller than the browser window, the image will repeat itself until it 
+fills the entire browser window. 
+ 
+<b
+ody background="clouds.gif"> 
+ 
+<body 
+background="http://profdevtrain.austincc.edu/html/graphics/clouds.gif">
+ 
+Eg.:
+-
+ 
+<html>
+ 
+<head>Creating First WEB page</head>
+ 
+<title>Web Page</title>
+ 
+
+C:
+\
+Users
+\
+Public
+\
+Pictures
+\
+Sample 
+Pictures
+\
+Chrysanthemum
+
+ 
+</body>
+ 
+</html>
+ 
+ 
+HTML Lists
+ 
+HTML provides a simple way to show unordered lists (bullet lists) or ordered 
+lists (numbered lists). 
+ 
+Unordered Lists
+ 
+An unordered list is a list of items marked with bullets(typically small black 
+circles). A
+n unordered list starts with the <ul>tag. Each list item starts with the 
+<li>tag. 
+ 
+This Code  <ul> 
+ 
+<li>Coffee</li> 
+ 
+<li>Milk</li> 
+ 
+</ul>
+ 
+
+ 
+…
+  
+Coffee 
+ 
+
+ 
+…
+  
+Milk
+ 
+ 
+Ordered Lists
+ 
+An ordered list is also a list of items. The list items are marked with numbers. 
+An ordered list starts 
+ 
+with the <ol>tag. Each list item starts with the <li>tag. 
+ 
+This Code   Would Display 
+ 
+<ol> 
+ 
+<li>Coffee</li> 
+ 
+<li>Milk</li> 
+ 
+</ol>
+ 
+1.  Coffee 
+ 
+2.  Milk
+ 
+Inside a list item you can put paragraphs, line breaks, images, links, other lists, 
+etc. 
+ 
+ 
